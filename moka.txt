@@ -1,0 +1,51 @@
+kimdir ne zaman kuruldu
+
+-Visa ve MasterCard gibi tüm küresel kartli ödeme sirketleri tarafindan onayli, Sanal POS, mobil ödeme ve fatura ödeme sistemleri sunan bir ödeme kurulusu. (MokaPOS, Moka Mobil POS ve Moka Fatura) 
+-6493 numarali kanununa istinaden BDDK’dan ödeme kurulusu lisansini 12 Nisan 2016 tarihi itibariyle almistir.
+-Keiretsu Forum araciligi ile yatirim da bir yatirim almis
+(2500'ün üzerinde akredite/lisansli yatirimci üyesi ile dünyanin en yaygin melek yatirimci agidir.)
+-2016 yili ile kiyaslandiginda cirosunu yüzde 600, bayi sayisini ise yüzde 524 oraninda artirmayi basar
+-su an için 30 kisilik bir ekip tarafindan yönetiliyor.
+
+vizyon: Mobil ve online finansal teknoloji çözümleri ile ödeme dünyasindaki islemleri hizlandirarak hayati kolaylastirmak ve basitlestirmek.
+
+müsterilere sundugu hizmetler neler
+
+
+1)sanal mokapos 
+
+
+-sanal POS altyapisi kullanarak isletmelerin, kobilerin tüm banka kartlarindan ödeme almalarini saglayor ve 1700‘ü askin bayiye hizmet sunmakta. 
+-müsteriler ister mokaposun kendi sundugu hazir ekranlarla ister MOka pos api ina entegre olarak kendi ödeme çözümlerini kullanabilirler.
+ne gibi özellikler sunuyor
+-SMS ve eposta ile ödeme link gönderme, API entegrasyonu, ortak ödeme sayfasi, MokaPOS ödeme ekrani ve iFrame le  banka ve kredi kartindan pesin ve taksitli(12) ödeme alabilirsiniz.
+-Yillik sanal pos kullanim ücreti, basvuru ve entegrasyon bedeli yerine aylik ciro hacminize göre komisyon oranlariyla çalisiyor
+-Kart saklama özelligi.
+
+2)moka mobilpos
+-akilli telefonlarin kartli tahsilatlar için kullanabilecegi bir yöntem.
+ -Tüzel ve bireysel kisi basvurusu yapilabiliyor.
+-Moka Mobil POS ile ödeme istegini alan kisi ise kendi akilli telefonu ya da bilgisayar üzerinden ödeme yapacagi kart bilgilerini girerek ödemesini gerçeklestirebilir.
+
+-mokamobili indiren bayiler üye olan bayiler
+, ödeme almak için SMS ve e-posta ile ödeme bildirimi göndererek ödeme alabiliyorlar. Tahsil edilecek tutar, ödeme yapacak kisinin adi soyadi ile birlikte cep telefonu numarasi ve/veya e-posta adresi girilerek ödeme istegi gönderilebiliyor.
+
+3)Moka Fatura
+
+-fatura ödeme lisansi ile bu sektörde faaliyet gösteren fatura ödeme noktalari ve internet sitelerine hizmet vermektedir.
+ bayi ve temsilcilerii geerçeklestirdigikleri islemlerden anlik komisyon kazanir.
+Moka Fatura Mobil Uygulamasi ile de müsterilerine faturalari
+kredi kartiyla ödeme imkani sunmakta
+
+4)Ödeme Ekranlari
+ödeme kuruluslarin bankalarin,  sanal pos altyapilarinin API vasitasi ile entegre etmekteler. Bu bir yazilim süreci gerektirmektedir. Banka ve kredi kartlarindan online ödemelerin alabilecegini kullanima hazir ekranlariyla tahsilatlar alinabiliyor.
+
+5)E-Ticaret Hazir Ödeme Modülleri
+Moka olarak açik kaynak kodlariyla gelistirilmis e-ticaret siteleri(Woocommerce (WordPress), Magento, OpenCart, PrestaShop) altyapisi kullanmak isteyenler için gelistirilen ödeme modülleriyle banka ve kredi kartlarindan ödeme alinabiliyor.
+
+
+projeler
+Oriflame satis Danismanlari için Ödemeleri çözümleri
+Türkiye’de 200 bin üzerinde satis danismani bulunan Oriflame ödeme çözümleri için MOKA’nin gelistirdigi mobil ve tarayici tabanli uygulamalari kullaniyor.
+Oriflame satis danismanlari, MOKA’nin kendileri için gelistirdigi, Apple Store ve Google Play Store’dan indirilebilen mobil uygulama ile yaptiklari satislarin tahsilatlarini cep telefonlarindan rahatlikla gerçeklestirebiliyorlar. 
+Oriflame’e yapacaklari ödemeleri yine bu uygulama üzerinden gerçeklestirebilmekteler.
