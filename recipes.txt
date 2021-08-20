@@ -14,3 +14,173 @@ done my changes
 
 finally copy of main
 
+
+	
+Success
+
+Media type
+
+application/json;odata.metadata=minimal;odata.streaming=true
+Controls Accept header.
+Example Value
+Schema
+[
+  {
+    "cardNo": "string",
+    "cardGuid": 0,
+    "mainCardNo": "string",
+    "oldCardNo": "string",
+    "accountNo": "string",
+    "customerNo": "string",
+    "oceanCustomerNo": "string",
+    "applicationNo": "string",
+    "cardBrand": "string",
+    "cardProductName": "string",
+    "cardProductId": "string",
+    "logoCode": "string",
+    "expiryDate": 0,
+    "oldExpiryDate": 0,
+    "cardBranch": "string",
+    "cardGroup": "string",
+    "cardLevel": "string",
+    "cardDci": "string",
+    "cardType": "string",
+    "cardStatCode": "string",
+    "cardSubStatCode": "string",
+    "cardStatDescription": "string",
+    "cardCancelReason": "string",
+    "cardStatChangeDate": "2021-08-20T16:57:08.506Z",
+    "isBusiness": true,
+    "extIssue": "string",
+    "productSegment": "string",
+    "totalPendingInstallments": 0,
+    "issuingFee": 0,
+    "courierStatus": "string",
+    "desfireId": "string",
+    "qrCode": "string",
+    "blockedDate": "2021-08-20T16:57:08.506Z",
+    "blockedTime": "string",
+    "email": "string",
+    "cardUpdateUser": "string",
+    "financialType": "string",
+    "fundSalesAmnt": 0,
+    "tffBarcodeNo": "string",
+    "tffLogoCode": "string",
+    "teamId": 0,
+    "visaStartDate": "2021-08-20T16:57:08.506Z",
+    "visaEndDate": "2021-08-20T16:57:08.506Z",
+    "visaStat": true,
+    "atc": 0,
+    "offlinePin": 0,
+    "pinRetryCount": 0,
+    "lastPinTryDate": "2021-08-20T16:57:08.506Z",
+    "cvv2RetryCount": 0,
+    "postingModelName": "string",
+    "ctdRemPayment": 0,
+    "stmtAdressIdx": 0,
+    "stmtPost": "string",
+    "stmtEmail": "string",
+    "stmtSms": "string",
+    "lastPaymentDate": "2021-08-20T16:57:08.506Z",
+    "lastStmtDate": "2021-08-20T16:57:08.506Z",
+    "billingCycleCode": "string",
+    "minPaymentCount": 0,
+    "minPaymentChangeDate": "2021-08-20T16:57:08.506Z",
+    "minPaymentDelinquencyPeriod": 0,
+    "minPaymentRatio": 0,
+    "embossName": "string",
+    "embossName2": "string",
+    "embossCode": "string",
+    "embossType": "string",
+    "embossDate": "2021-08-20T16:57:08.506Z",
+    "embossCountTotal": 0,
+    "embossCountByCustomerCause": 0,
+    "lastEmbossDateByCustomerCause": "2021-08-20T16:57:08.506Z",
+    "accTtlLoadAmnt": 0,
+    "crdTtlLoadAmnt": 0,
+    "ttlLoadAmnt": 0,
+    "crdHstBalance": 0,
+    "cshTtlLoadAmnt": 0,
+    "ttlHstBalance": 0,
+    "orderFlag": true,
+    "orderAccount": "string",
+    "offlineBalance": 0,
+    "orderAmount": 0,
+    "cardLimit": 0,
+    "cardLimitUsed": 0,
+    "cardAvailLimit": 0,
+    "customerAvailLimit": 0,
+    "maxAmtCshLoadDaily": 0,
+    "maxAmtCshLoadOnce": 0,
+    "maxAmtCshLoadYearly": 0,
+    "maxAmtOnCardOnce": 0,
+    "maxAmtTtlLdDaily": 0,
+    "maxAmtTtlLoadYearly": 0,
+    "maxCntCshLoadDaily": 0,
+    "maxCntCshLoadYearly": 0,
+    "dailyAtmCashLimit": 0,
+    "cashLimitRatio": 0,
+    "dailyTotalCashLimit": 0,
+    "limitRatio": 0,
+    "remainingMonthlyLoadLimit": 0,
+    "cashAdvanceLimit": 0,
+    "cashLimitAvailable": 0,
+    "limitIncrease": "string",
+    "autoLimitIncrease": true,
+    "floorOrderLimit": 0,
+    "orderLimit": 0,
+    "reserveInfo": {
+      "reserveRatio": 0,
+      "reserveAmount": 0
+    },
+    "cardPointInfo": {
+      "earnedPoint": 0,
+      "usedPoint": 0,
+      "campaignPoint": 0,
+      "avaliablePoint": 0
+    },
+    "debtInfoList": [
+      {
+        "currency": 0,
+        "totalDebt": 0,
+        "cycleDebt": 0,
+        "lastStmtRemaining": 0,
+        "minPaymentRemaining": 0,
+        "cyclePaymentTotal": 0,
+        "payOffTotal": 0,
+        "cycleTxnTotal": 0,
+        "minAmnt": 0,
+        "totalAmnt": 0
+      }
+    ],
+    "interestRates": [
+      {
+        "currencyCode": 0,
+        "currencyDescription": "string",
+        "salesInterestRate": 0,
+        "cashInterestRate": 0,
+        "latePaymentSalesInterestRate": 0,
+        "latePaymentCashInterestRate": 0
+      }
+    ],
+    "debitAccountList": [
+      {
+        "accountNo": "string",
+        "branchId": 0,
+        "accountType": "string",
+        "currencyCode": 0
+      }
+    ],
+    "hasAutoPayment": true,
+    "autoPaymentInfo": [
+      {
+        "currencyCode": 0,
+        "autoPaymentType": "string",
+        "accountNo": "string",
+        "accountBranchId": 0,
+        "accountSuffix": 0,
+        "bankAccountNo": "string"
+      }
+    ]
+  }
+]
