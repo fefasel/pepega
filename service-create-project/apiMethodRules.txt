@@ -1,0 +1,29 @@
+1. GET METHOD
+
+HERŞEY ASLINDA İMAPE STRING OLARAK GELIYOR YANİ {string, string} pair OLARAK
+getInt, getBoolean stringi o tipe dönüştürüyor.
+
+{string, string } multivalued mape atıldığından her şye getSring olarak alınabilir.
+
+->requestte 
+string-date -> request.add("date", convertString2DateTime(date));
+
+aslında herşey getString ile alınıabilir.
+double ise -> getBigDecimal().toString() kullanılmalı
+geri kalan herşey getString ile alınır
+
+
+*inputta list alınmıyor 
+
+2.POST METHOD/PUT METHOD (HERŞEY AYNI)
+
+post methodda get ederken tipe göre get etmek gerek, çünkü pojo daki attributeun tipine göre set etmen gerek
+- request pojosundaki tiplere göre hangi tipte get edileceğei belirlebebilir.
+
+-requestte list alınıabilir
+
+List<String> list = new ArrayList<String>();
+
+inputta list alınabilir
+
+

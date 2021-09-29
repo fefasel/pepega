@@ -1,0 +1,285 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>textAngular 1.1.2 Demo</title>
+
+    <meta name="robots" content="noindex">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <a href="index.html">
+        Click Me
+    </a>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="https://www.google.com">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" style="">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade" id="home">
+                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua,
+                    retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+                    Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry
+                    richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american
+                    apparel, butcher voluptate nisi qui.</p>
+                <div class="container" id="cardSection">
+                    <div class="card border-primary mb-3" style="max-width: 20rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Primary card title</h4>
+                            <p class="card-text">Dto Info</p>
+
+                            <textarea name="aa" id="" cols="30" rows="10">
+                                    pepeg
+                                </textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade active show" id="profile">
+                <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation
+                    +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table
+                    craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts
+                    ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="dropdown1">
+                <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro
+                    fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer,
+                    iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony.
+                    Leggings gentrify squid 8-bit cred pitchfork.</p>
+            </div>
+            <div class="tab-pane fade" id="dropdown2">
+                <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master
+                    cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party
+                    locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before
+                    they sold out farm-to-table VHS viral locavore cosby sweater.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Legend</legend>
+                <div class="form-group">
+                    <label for="exampleSelect1" class="form-label mt-4">Example select</label>
+                    <select class="form-select" id="exampleSelect1">
+                        <option>POST SERVICE</option>
+                        <option>PUT SERVICE</option>
+                        <option>GET SERVICE</option>
+                    </select>
+                </div>
+                <fieldset class="form-group">
+                    <div class="row">
+                        <div class="col-6">
+                            <legend class="mt-4">Radio buttons</legend>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios"
+                                        id="optionsRadios1" value="option1" checked="">
+                                    Option one is this and that—be sure to include why it's great
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios"
+                                        id="optionsRadios2" value="option2">
+                                    Option two can be something else and selecting it will deselect option one
+                                </label>
+                            </div>
+                            <div class="form-check disabled">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios"
+                                        id="optionsRadios3" value="option3" disabled="">
+                                    Option three is disabled
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <fieldset class="form-group">
+                                <legend class="mt-4">Checkboxes</legend>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Default checkbox
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked="">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Checked checkbox
+                                    </label>
+                                </div>
+                            </fieldset>
+
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <div class="row" id="textAreaInputAndMain">
+
+                        <div class="col-6">
+                            <label for="requestPojoTextArea" class="form-label mt-4">Enter Request Pojo</label>
+                            <textarea class="form-control" id="requestPojoTextArea" rows="10"></textarea>
+                            <button type="submit" id="submitRequestPojo" class="btn btn-primary" onclick>Submit Request
+                                Pojo</button>
+                            <div class="form-group">
+                                <label for="formFile" class="form-label mt-4">Default file input example</label>
+                                <input class="form-control" type="file" id="formFile">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label for="requestAndDtoAllTextArea" class="form-label mt-4">Request And All Dtos</label>
+                            <textarea class="form-control" id="requestAndDtoAllTextArea" rows="10"></textarea>
+                            <button type="submit" id="copyRequestAllPojo" class="btn btn-primary" onclick>Copy to
+                                Clipboard</button>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="responsePojoTextArea" class="form-label mt-4">Enter Response Pojo</label>
+                            <textarea class="form-control" id="responsePojoTextArea" rows="10"></textarea>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="form-group">
+                        <label for="formFile" class="form-label mt-4">Default file input example</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <fieldset>
+                        <legend class="mt-4">Switches</legend>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox
+                                input</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
+                            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox
+                                input</label>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit" id="submitButton" class="btn btn-primary" onclick>Submit</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="container">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Type</th>
+                    <th scope="col">Column heading</th>
+                    <th scope="col">Column heading</th>
+                    <th scope="col">Column heading</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-active">
+                    <th scope="row">Active</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <th scope="row">Default</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="table-primary">
+                    <th scope="row">Primary</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="table-secondary">
+                    <th scope="row">Secondary</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="table-success">
+                    <th scope="row">Success</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="table-danger">
+                    <th scope="row">Danger</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="table-warning">
+                    <th scope="row">Warning</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="table-info">
+                    <th scope="row">Info</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="table-light">
+                    <th scope="row">Light</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="table-dark">
+                    <th scope="row">Dark</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
