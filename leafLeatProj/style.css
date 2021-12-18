@@ -1,0 +1,21 @@
+
+#map {
+    width: 1080px;
+    height: 720px;
+}
+
+#flexContainer,
+.container{
+    border: 1px black solid;
+}
+.row{
+    border: 1px red solid;
+}
+.col{
+    border: 1px green   ;
+}
+
+img
+,h3{
+    border: 1px black solid;
+}
