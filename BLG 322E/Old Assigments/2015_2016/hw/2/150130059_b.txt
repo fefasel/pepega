@@ -1,0 +1,27 @@
+!	Cemal Fatih Kuyucu - 150120059
+!	Rus Koylu Carpimi
+!	sonuc 900 adresinde
+
+	.data
+carpan1:	.halfword	$83	! 1. Carpan
+carpan2:	.halfword	$12	! 1. Carpan
+
+	.bss
+
+	.text
+start:	sethi	carpan1	%r1		! 1. carpan
+	sethi	carpan2	%r2		! 2. carpan
+	add	%r0	%r0	%r3	! sonuc = 0
+	sethi	900	%r7		! sonuc yeri R7 de
+level0:	and	%r1	01	%r5	! 1. carpan teklik ciftlik kontrolu
+	bne	tek			! tek ise tek e git
+	nop
+	ba	level2			! cift ise devam et
+	nop
+tek:	add	%r2	%r3	%r3	! tek ise sonuca 2.carpani ekle
+level2:	umul	%r2	2	%r2	! 2.carpan 2 ile carpilir
+	udiv	%r1	2	%r1	! 1.carpan 2 ye bolunur
+level3:	bne	level0			! 1.carpanin 0 olup olmadigi kontrolu
+	nop
+	sth	%r3	[%r7]		! sonucu kaydet
+	ta	0			! program sonu

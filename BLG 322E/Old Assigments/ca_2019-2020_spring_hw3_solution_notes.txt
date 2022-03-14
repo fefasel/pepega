@@ -1,0 +1,36 @@
+This is not only solution of the assignment, desired system can be designed in many ways. I am just sharing an example solution.
+
+You may not need to use priority encoder (although you need a custom logic with gates if you don't) or decoder. You may not need to use A1-A3 pins of the CPU. Also lack of pull up/down resistors is not 
+considered for grading.
+
+Some common mistakes are:
+- Drawing a  box with IRQ/INTACK pins and call it CPU. You are asked to use a specific CPU in the assignment (the CPU in your lecture slides).
+
+- Connecting all four buttons to different interrupt levels or same interrupt level.
+
+- Directly connecting interrupt requests from daisy chain components or devices to the IPL0 and IPL1 pins of CPU without any priority encoder or logic gates. This is not correct because 
+you will have different interrupt levels when: Only horizontal devices send request, only vertical devices send request, both types of devices send request. Case 1 and 3 should use same level 
+interrupt (since horizontal devices have higher priority they should override anyway)
+
+- Not connecting IRQ output of devices to daisy chain components. Without IRQ info daisy chain component can not decide whether current device should get INTACK signal or it should be passed to 
+next device.
+
+- Connecting vertical buttons to a higher level interrupt pin than horizontal buttons. Priority levels with higher number larger priority.
+
+- Not having INTACK input for interrupt devices. You could design same system without this but in assignment text it is said that interrupt devices receive INTACK input
+
+- Not having vector address output for interrupt devices. You could design same system without this but in assignment text it is said that interrupt devices place an address on data bus.
+
+- Not using any daisy chain. You could design same system without this but it is asked in the assignment.
+
+- Using VPA pin of CPU, all interrupt devices in this assignment works with vectored-interrupts so it is irrelevant.
+
+- Not using LDS/DTACK signals (or using them incorrectly).
+
+- Using FC0-FC2 to decide which buttons should get the INTACK signal. FC pins indicate which mode CPU is working currently and their values are 111 during interrupt, regardless of interrupt level. 
+
+
+
+The magical box with text "delay" in it before DTACK signal makes it so that the incoming signal is being waited until expected data has arrived to CPU. For example if your device sends a 8-bit data via data bus 
+for CPU to read,  it will probably take CPU one clock cycle to read this data from the bus (because after data is placed on the bus, CPU is going to read it in next clock cycle, from computer organization). So 
+you can probably use a D flip-flop for delay. Of course different situations/devices may require different delays so that is why probably in lecture slides it is not shown explicity as a D flip-flop, to make it more general.

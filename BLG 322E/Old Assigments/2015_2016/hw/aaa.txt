@@ -1,0 +1,20 @@
+!	Cemal Fatih Kuyucu - 150120059
+!	Rus Koylu Carpimi
+!	
+
+	.data
+carpan1:	.halfword	83	! 1. Carpan
+carpan2:	.halfword	12	! 1. Carpan
+
+	.text
+start:	sethi	carpan1	%r1		! 1. carpan
+	sethi	carpan2	%r2		! 2. carpan
+	add	%r0	%r0	%r3	! sonuc = 0
+level0:	and	%r1	01	%r7	
+	bne	tek
+	ba	level2
+tek:	add	%r2	%r3	%r3
+level2:	umul	%r2	2	%r2
+	udiv	%r1	2	%r1
+level3:	bne	level0
+	ta	0
